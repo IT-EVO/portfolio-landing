@@ -1,0 +1,92 @@
+footer {
+  width: 100%;
+  .feedback {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    .logo {
+      margin: 60px auto;
+      width: 66px;
+      height: 80px;
+    }
+    h4 {
+      margin: 30px 0;
+    }
+    .footer_buttons {
+      display: flex;
+      position: relative;
+      justify-content: space-between;
+      width: 23%;
+      margin: 40px auto;
+      button {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        box-shadow: 0px 10px 25px rgba(210, 210, 210, 0.25);
+        &:hover {
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+      }
+      .facebook_btn {
+        background: url(/icons/fb.svg);
+        background-size: 11px 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .twitter_btn {
+        background: url(/icons/twitter.svg);
+        background-size: 22px 18px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .dribble_btn {
+        background: url(/icons/dribbble.svg);
+        background-size: 20px 18px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .linkedin_btn {
+        background: url(/icons/linkedin.svg);
+        background-size: 20px 19px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+    nav {
+      ul {
+        display: flex;
+        position: relative;
+        li {
+          height: 100%;
+          padding: 19px 27px;
+          background-color: white;
+          color: $grayCol;
+          &:hover {
+            background-color: darken(white, 7%);
+          }
+        }
+      }
+    }
+    .email_wrapper {
+      position: absolute;
+      right: 0;
+      bottom: 100px;
+      background: url(/icons/mail.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      padding-left: 30px;
+    }
+  }
+
+  .copyright-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+  }
+}
